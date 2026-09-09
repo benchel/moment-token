@@ -1,19 +1,37 @@
 {
-  "name": "moment-token",
-  "version": "1.0.0",
-  "description": "moment-token",
-  "main": "index.js",
+  "name": "@vanchall/moment-token",
+  "version": "0.0.1",
+  "description": "moment_token design tokens (CSS variables, SCSS variables, Tailwind v4 theme)",
+  "files": [
+    "dist",
+    "tokens",
+    "build-tokens.mjs"
+  ],
+  "exports": {
+    "./css": "./dist/css/variables.css",
+    "./scss": "./dist/scss/_variables.scss",
+    "./tailwind": "./dist/tailwind/theme.css",
+    "./tokens/*": "./tokens/*"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    ,"build": "node build-tokens.mjs"
+    "build": "node build-tokens.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/benchel/moment-token.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "design-tokens",
+    "style-dictionary",
+    "css-variables",
+    "tailwindcss"
+  ],
+  "author": "benchel",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/benchel/moment-token/issues"
