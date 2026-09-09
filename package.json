@@ -1,0 +1,25 @@
+{
+  "name": "moment-token",
+  "version": "1.0.0",
+  "description": "moment-token",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    ,"build": "node build-tokens.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benchel/moment-token.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/benchel/moment-token/issues"
+  },
+  "homepage": "https://github.com/benchel/moment-token#readme",
+  "devDependencies": {
+    "style-dictionary": "5.5.3"
+  }
+}
