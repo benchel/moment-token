@@ -20,16 +20,16 @@
       "$value": 18,
       "$type": "number"
     },
+    "body": {
+      "$value": 16,
+      "$type": "number"
+    },
     "body-md": {
       "$value": 15,
       "$type": "number"
     },
     "body-sm": {
       "$value": 13,
-      "$type": "number"
-    },
-    "body": {
-      "$value": 16,
       "$type": "number"
     }
   },
@@ -62,12 +62,12 @@
     }
   },
   "font-family": {
-    "primary": {
-      "$value": "Monrope",
+    "Myanmar_Khyay": {
+      "$value": "Myanmar Khyay",
       "$type": "string"
     },
-    "display": {
-      "$value": "Fraunces",
+    "Noto_Sans_KR": {
+      "$value": "Noto Sans KR",
       "$type": "string"
     }
   }
