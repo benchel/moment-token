@@ -1,0 +1,62 @@
+{
+  "white": {
+    "$value": "#ffffff",
+    "$type": "color"
+  },
+  "black": {
+    "$value": "#000000",
+    "$type": "color"
+  },
+  "magenta": {
+    "$value": "#871d34",
+    "$type": "color"
+  },
+  "light_pink": {
+    "300": {
+      "$value": "#dec9c9",
+      "$type": "color"
+    },
+    "400": {
+      "$value": "#e5b1b1",
+      "$type": "color"
+    },
+    "500": {
+      "$value": "#e68f8f",
+      "$type": "color"
+    }
+  },
+  "mustard": {
+    "500": {
+      "$value": "#ffe199",
+      "$type": "color"
+    },
+    "600": {
+      "$value": "#ffd573",
+      "$type": "color"
+    },
+    "700": {
+      "$value": "#ffc847",
+      "$type": "color"
+    },
+    "800": {
+      "$value": "#ffb300",
+      "$type": "color"
+    }
+  },
+  "pigeonHb": {
+    "600": {
+      "$value": "#bf3139",
+      "$type": "color"
+    },
+    "700": {
+      "$value": "#bd121c",
+      "$type": "color"
+    }
+  },
+  "MediumBlue": {
+    "700": {
+      "$value": "#1206b1",
+      "$type": "color"
+    }
+  }
+}
